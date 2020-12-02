@@ -1,0 +1,32 @@
+{
+	"pokemons": [
+		{
+			"name": "Unknown",
+			"HP": 90,
+			"Attack": 1,
+			"Defence": 40,
+			"Speed": 50
+		},
+		{
+			"name": "Pikachu",
+			"HP": 1030,
+			"Attack": 90,
+			"Defence": 80,
+			"Speed": 70
+		},
+		{
+			"name": "Slowpoke",
+			"HP": 40,
+			"Attack": 20,
+			"Defence": 30,
+			"Speed": 22
+		},
+		{
+			"name": "Charmander",
+			"HP": 40,
+			"Attack": 22,
+			"Defence": 33,
+			"Speed": 77
+		}
+	]
+}
