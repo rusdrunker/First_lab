@@ -77,9 +77,22 @@ include CMakeFiles/FirstLab.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/FirstLab.dir/flags.make
 
+CMakeFiles/FirstLab.dir/Charmander.cpp.o: CMakeFiles/FirstLab.dir/flags.make
+CMakeFiles/FirstLab.dir/Charmander.cpp.o: ../Charmander.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rusdrunker/Documents/FirstLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FirstLab.dir/Charmander.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FirstLab.dir/Charmander.cpp.o -c /Users/rusdrunker/Documents/FirstLab/Charmander.cpp
+
+CMakeFiles/FirstLab.dir/Charmander.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FirstLab.dir/Charmander.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rusdrunker/Documents/FirstLab/Charmander.cpp > CMakeFiles/FirstLab.dir/Charmander.cpp.i
+
+CMakeFiles/FirstLab.dir/Charmander.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstLab.dir/Charmander.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rusdrunker/Documents/FirstLab/Charmander.cpp -o CMakeFiles/FirstLab.dir/Charmander.cpp.s
+
 CMakeFiles/FirstLab.dir/main.cpp.o: CMakeFiles/FirstLab.dir/flags.make
 CMakeFiles/FirstLab.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rusdrunker/Documents/FirstLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FirstLab.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rusdrunker/Documents/FirstLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FirstLab.dir/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FirstLab.dir/main.cpp.o -c /Users/rusdrunker/Documents/FirstLab/main.cpp
 
 CMakeFiles/FirstLab.dir/main.cpp.i: cmake_force
@@ -89,19 +102,6 @@ CMakeFiles/FirstLab.dir/main.cpp.i: cmake_force
 CMakeFiles/FirstLab.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstLab.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rusdrunker/Documents/FirstLab/main.cpp -o CMakeFiles/FirstLab.dir/main.cpp.s
-
-CMakeFiles/FirstLab.dir/Pokemon.cpp.o: CMakeFiles/FirstLab.dir/flags.make
-CMakeFiles/FirstLab.dir/Pokemon.cpp.o: ../Pokemon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rusdrunker/Documents/FirstLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FirstLab.dir/Pokemon.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FirstLab.dir/Pokemon.cpp.o -c /Users/rusdrunker/Documents/FirstLab/Pokemon.cpp
-
-CMakeFiles/FirstLab.dir/Pokemon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FirstLab.dir/Pokemon.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rusdrunker/Documents/FirstLab/Pokemon.cpp > CMakeFiles/FirstLab.dir/Pokemon.cpp.i
-
-CMakeFiles/FirstLab.dir/Pokemon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstLab.dir/Pokemon.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rusdrunker/Documents/FirstLab/Pokemon.cpp -o CMakeFiles/FirstLab.dir/Pokemon.cpp.s
 
 CMakeFiles/FirstLab.dir/Pikachu.cpp.o: CMakeFiles/FirstLab.dir/flags.make
 CMakeFiles/FirstLab.dir/Pikachu.cpp.o: ../Pikachu.cpp
@@ -116,18 +116,18 @@ CMakeFiles/FirstLab.dir/Pikachu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstLab.dir/Pikachu.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rusdrunker/Documents/FirstLab/Pikachu.cpp -o CMakeFiles/FirstLab.dir/Pikachu.cpp.s
 
-CMakeFiles/FirstLab.dir/Charmander.cpp.o: CMakeFiles/FirstLab.dir/flags.make
-CMakeFiles/FirstLab.dir/Charmander.cpp.o: ../Charmander.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rusdrunker/Documents/FirstLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FirstLab.dir/Charmander.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FirstLab.dir/Charmander.cpp.o -c /Users/rusdrunker/Documents/FirstLab/Charmander.cpp
+CMakeFiles/FirstLab.dir/Pokemon.cpp.o: CMakeFiles/FirstLab.dir/flags.make
+CMakeFiles/FirstLab.dir/Pokemon.cpp.o: ../Pokemon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rusdrunker/Documents/FirstLab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FirstLab.dir/Pokemon.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FirstLab.dir/Pokemon.cpp.o -c /Users/rusdrunker/Documents/FirstLab/Pokemon.cpp
 
-CMakeFiles/FirstLab.dir/Charmander.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FirstLab.dir/Charmander.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rusdrunker/Documents/FirstLab/Charmander.cpp > CMakeFiles/FirstLab.dir/Charmander.cpp.i
+CMakeFiles/FirstLab.dir/Pokemon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FirstLab.dir/Pokemon.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rusdrunker/Documents/FirstLab/Pokemon.cpp > CMakeFiles/FirstLab.dir/Pokemon.cpp.i
 
-CMakeFiles/FirstLab.dir/Charmander.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstLab.dir/Charmander.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rusdrunker/Documents/FirstLab/Charmander.cpp -o CMakeFiles/FirstLab.dir/Charmander.cpp.s
+CMakeFiles/FirstLab.dir/Pokemon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstLab.dir/Pokemon.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rusdrunker/Documents/FirstLab/Pokemon.cpp -o CMakeFiles/FirstLab.dir/Pokemon.cpp.s
 
 CMakeFiles/FirstLab.dir/Slowpoke.cpp.o: CMakeFiles/FirstLab.dir/flags.make
 CMakeFiles/FirstLab.dir/Slowpoke.cpp.o: ../Slowpoke.cpp
@@ -144,19 +144,19 @@ CMakeFiles/FirstLab.dir/Slowpoke.cpp.s: cmake_force
 
 # Object files for target FirstLab
 FirstLab_OBJECTS = \
-"CMakeFiles/FirstLab.dir/main.cpp.o" \
-"CMakeFiles/FirstLab.dir/Pokemon.cpp.o" \
-"CMakeFiles/FirstLab.dir/Pikachu.cpp.o" \
 "CMakeFiles/FirstLab.dir/Charmander.cpp.o" \
+"CMakeFiles/FirstLab.dir/main.cpp.o" \
+"CMakeFiles/FirstLab.dir/Pikachu.cpp.o" \
+"CMakeFiles/FirstLab.dir/Pokemon.cpp.o" \
 "CMakeFiles/FirstLab.dir/Slowpoke.cpp.o"
 
 # External object files for target FirstLab
 FirstLab_EXTERNAL_OBJECTS =
 
-FirstLab: CMakeFiles/FirstLab.dir/main.cpp.o
-FirstLab: CMakeFiles/FirstLab.dir/Pokemon.cpp.o
-FirstLab: CMakeFiles/FirstLab.dir/Pikachu.cpp.o
 FirstLab: CMakeFiles/FirstLab.dir/Charmander.cpp.o
+FirstLab: CMakeFiles/FirstLab.dir/main.cpp.o
+FirstLab: CMakeFiles/FirstLab.dir/Pikachu.cpp.o
+FirstLab: CMakeFiles/FirstLab.dir/Pokemon.cpp.o
 FirstLab: CMakeFiles/FirstLab.dir/Slowpoke.cpp.o
 FirstLab: CMakeFiles/FirstLab.dir/build.make
 FirstLab: CMakeFiles/FirstLab.dir/link.txt

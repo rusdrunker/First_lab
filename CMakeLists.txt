@@ -3,4 +3,15 @@ project(FirstLab)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(FirstLab main.cpp Pokemon.cpp Pokemon.h Pikachu.cpp Pikachu.h Charmander.cpp Charmander.h Slowpoke.cpp Slowpoke.h)
+include_directories(.)
+
+add_executable(FirstLab
+        Charmander.cpp
+        Charmander.h
+        main.cpp
+        Pikachu.cpp
+        Pikachu.h
+        Pokemon.cpp
+        Pokemon.h
+        Slowpoke.cpp
+        Slowpoke.h)
